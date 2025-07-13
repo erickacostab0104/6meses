@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feliz 6 Meses, Mi Amor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Pantalla de Bienvenida -->
+  <div class="container">
+    <h1>Feliz medio año, mi amor ❤️</h1>
+    <p>Gracias por estos 6 meses tan mágicos. Eres mi todo.</p>
+    <button onclick="playMusic(); document.getElementById('timeline').scrollIntoView({behavior: 'smooth'});">
+      Haz clic para comenzar
+    </button>
+  </div>
+
+  <!-- Música de fondo -->
+  <audio id="bg-music" src="musica.mp3" loop></audio>
+
+  <!-- Timeline de Momentos -->
+  <section id="timeline">
+    <h2>Nuestros Momentos 💞</h2>
+
+    <div class="moment">
+      <img src="imagen/imagen1.jpg" alt="Primera cita">
+      <div class="texto">
+        <h3>26 de enero – Primera cita 🌟</h3>
+        <p>Ese día mágico donde nuestras miradas se cruzaron por primera vez.</p>
+      </div>
+    </div>
+
+    <div class="moment">
+      <img src="imagen/imagen2.jpg" alt="Cafetería y primer beso">
+      <div class="texto">
+        <h3>7 de febrero – Nuestra primera vez 💋</h3>
+        <p>Una cita en la cafetería... y nuestro primer beso en público. Inolvidable.</p>
+      </div>
+    </div>
+
+    <div class="moment">
+      <img src="imagen/imagen3.jpg" alt="Carnaval juntos">
+      <div class="texto">
+        <h3>4 de marzo – Carnaval juntos 🎭</h3>
+        <p>Nuestro primer carnaval, lleno de colores, alegría y abrazos.</p>
+      </div>
+    </div>
+
+    <div class="moment">
+      <img src="imagen/imagen4.jpg" alt="Suero">
+      <div class="texto">
+        <h3>20 de marzo – Su primer cuidado 👩‍⚕️</h3>
+        <p>Me colocó un suero por primera vez. Me cuidó como solo ella sabe hacerlo.</p>
+      </div>
+    </div>
+
+    <div class="moment">
+      <img src="imagen/imagen5.jpg" alt="Cumpleaños sorpresa">
+      <div class="texto">
+        <h3>1 de abril – Cumpleaños sorpresa 🎉</h3>
+        <p>Mi primer cumpleaños con ella... ¡y fue una sorpresa inolvidable!</p>
+      </div>
+    </div>
+
+    <div class="moment">
+      <img src="imagen/imagen6.jpg" alt="Ella hermosa">
+      <div class="texto">
+        <h3>Una fotito extra 🌹</h3>
+        <p>Porque es hermosa, y esta foto lo grita con todo el corazón.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Nuestros Recuerdos 📸</h2>
+    <div class="polaroid-container">
+  
+      <div class="polaroid">
+        <img src="imagen/imagen7.jpg" alt="Recuerdo 1">
+        <p>Me encanta estar contigo 💖</p>
+      </div>
+  
+      <div class="polaroid">
+        <img src="imagen/imagen8.jpg" alt="Recuerdo 2">
+        <p>Es que me encanta esha lenguita 🌅</p>
+      </div>
+  
+      <div class="polaroid">
+        <img src="imagen/imagen9.jpg" alt="Recuerdo 3">
+        <p>Mi foto favorita del carnaval 😍</p>
+      </div>
+  
+      <div class="polaroid">
+        <img src="imagen/imagen10.jpg" alt="Recuerdo 4">
+        <p>Ese día inolvidable, me encanta cuando saca su lenguita 💫</p>
+      </div>
+  
+      <div class="polaroid">
+        <img src="imagen/imagen11.jpg" alt="Recuerdo 5">
+        <p>Contigo, todo es mejor y mas con un heladito ✨</p>
+      </div>
+  
+    </div>
+  </section>
+  
+  <section id="carta">
+    <h2>Una cartita para ti 💌</h2>
+    <div class="typewriter">
+      <p id="carta-texto"></p>
+    </div>
+  </section>
+  
+
+  <!-- Script -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
